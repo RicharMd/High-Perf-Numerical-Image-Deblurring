@@ -4,7 +4,9 @@
 
 ### 1.1 What is the project about?
 This project addresses the problem of reconstructing clear images from blurred observations. The blurring process is modeled as a linear system:
-$$ A_{\ell} X A_{r} = B $$
+
+\[ A_{\ell} X A_{r} = B \]
+
 where $X \in \mathbb{R}^{n \times n}$ is the original image, $B \in \mathbb{R}^{n \times n}$ is the blurred image, and $A_{\ell}, A_{r} \in \mathbb{R}^{n \times n}$ are structured blurring kernels. The core objective is to recover $X$ from $B$ by solving this system using numerical factorization methods, specifically focusing on QR factorization.
 
 The project involves two main phases:
