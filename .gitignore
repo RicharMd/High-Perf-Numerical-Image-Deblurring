@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Output directory (generated images)
+output/
+
+# Test images (optional - uncomment if images are too large)
+# test_images/
+
+# Selected images (optional - uncomment if images are too large)
+# selected_image/
+
+# Log files
+*.log
+
+# LaTeX auxiliary files
+*.aux
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MATLAB data files (optional - uncomment if .mat files are large)
+# *.mat
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
