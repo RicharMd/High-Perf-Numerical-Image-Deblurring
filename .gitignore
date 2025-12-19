@@ -9,7 +9,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Output directory (generated images)
-output/
+# Ignore all output files, but allow specific comparison images used in README
+output/*
+!output/*_comparison.png
 
 # Test images (optional - uncomment if images are too large)
 # test_images/
